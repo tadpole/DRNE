@@ -1,4 +1,6 @@
 *.pyc
 *.swp
 *~
+*/pyc
+*/__pycache__
 result/
