@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument('-b', '--batch_size', type=int, default=16, help='Number of training examples processed per step')
     parser.add_argument('-lr', '--learning_rate', type=float, default=0.0025, help='initial learning rate')
     parser.add_argument('--undirected', type=bool, default=True, help='whether it is an undirected graph')
-    parser.add_argument('-a', '--alpha', type=float, default=0.001, help='the rate of structure loss and orth loss')
+    parser.add_argument('-a', '--alpha', type=float, default=0.0, help='the rate of structure loss and orth loss')
     parser.add_argument('-l', '--lamb', type=float, default=0.5, help='the rate of structure loss and guilded loss')
     parser.add_argument('-g', '--grad_clip', type=float, default=5.0, help='clip gradients')
     parser.add_argument('-K', type=int, default=1, help='K-neighborhood')
